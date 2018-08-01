@@ -21,15 +21,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="config.json" />
+    <None Remove="protocol.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="protocol.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="eagle">
       <HintPath>eagle.dll</HintPath>
     </Reference>
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="config.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Update="libleveldb.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
