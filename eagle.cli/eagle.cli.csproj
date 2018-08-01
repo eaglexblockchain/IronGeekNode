@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Copyright>2018 Eagle Project</Copyright>
+    <AssemblyTitle>Neo.CLI</AssemblyTitle>
+    <Version>1.1.2</Version>
+    <Authors>Eagle Project</Authors>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>eagle.cli</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>Eagle.CLI</PackageId>
+    <RootNamespace>Eagle</RootNamespace>
+    <Company>Eagle Project</Company>
+    <Product>Eagle.CLI</Product>
+    <Description>Neo.CLI</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)'=='Release'">
+    <DebugType>none</DebugType>
+    <DebugSymbols>False</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="eagle">
+      <HintPath>eagle.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="libleveldb.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="References\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EagleCore" Version="1.1.4" />
+  </ItemGroup>
+
+</Project>
