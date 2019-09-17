@@ -9,6 +9,6 @@ Required development tool: Visual Studio 2017 (Community/Professional/Enterprise
 <br/>
 Download backup chain so that you don't need to wait too long downloading the blocks:
 <br/>
-For linux https://drive.google.com/open?id=1rZxmk9RZnnYBXDa6NlRFSoPSINnxk2wm
+For linux https://drive.google.com/open?id=1ML3BgQKjcotEPCxg0TgqYALUscA0bTd1
 <br/>
-For windows https://drive.google.com/open?id=1S4esjxU4e77v6zccvDNzkB0_a7Bgz_qg
+For windows https://drive.google.com/open?id=1v8a2IwA4X6fH6SYjhCcrY3kkdKc2P0DJ
