@@ -11,4 +11,4 @@ Download backup chain so that you don't need to wait too long downloading the bl
 <br/>
 For linux https://drive.google.com/open?id=1XlK-LPDj84-bvgqAMjYDqTbRMO7-SNFV
 <br/>
-For windows https://drive.google.com/open?id=1v8a2IwA4X6fH6SYjhCcrY3kkdKc2P0DJ
+For windows https://drive.google.com/open?id=1CaiMnCPbUFbPF_0_mqPQeX7EYxejMS1z
